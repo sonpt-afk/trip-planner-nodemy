@@ -13,7 +13,7 @@
 .menu-main{
 position: relative;
 height: 40px;
-width:1319px;
+width:100%;
 display: flex;
 justify-content: space-evenly;
 
