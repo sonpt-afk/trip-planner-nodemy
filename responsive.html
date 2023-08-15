@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body center-center>
+    <style>
+         *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }    
+        
+
+        body{
+                display: flex;
+                flex-direction: column;
+            }
+            .block1{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .feature1,.feature2,.feature3{
+                flex:1;
+            }
+            .signup{
+                width:100%;
+            }
+        /*  0-600*/
+        @media screen and (max-width: 800px){
+           .content{
+            order:1;
+           }
+           .block1{
+            order:2;
+           }
+        }
+        /* 601-1200 */
+       .block1 div{
+        width:50%;
+        flex:unset;
+       }
+    </style>
+     <div class="header">header</div>
+     <div class="block1">
+        <div class="feature1">feature1</div>
+        <div class="feature2">feature2</div>
+        <div class="feature3">feature3</div>
+        <div class="signup">sign up</div>
+     </div>
+     <div class="content">content</div>
+</body>
+</html>

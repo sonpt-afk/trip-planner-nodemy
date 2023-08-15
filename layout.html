@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }        
+        .block1,.block2,.block4{
+            height: 40px;
+        }
+        .center-center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .between-center{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .block1 .logo{
+            width:30%
+        } 
+        .block1 .banner{
+            width:70%
+        } 
+        .block3 .left-content,.block3 .right-content{
+            width:20%;
+        }
+        .block3 .mid-content{
+            width:60%;
+        }
+        .part2 div{
+            width:50%;
+        }
+    </style>
+    <div class="block1 center-center">
+        <div class="logo">LOGO</div>
+        <div class="banner">BANNER</div>
+    </div>
+    <div class="block2 center-center">header bar</div>
+    <div class="block3 center-center">
+        <div class="left-content">left</div>
+        <div class="mid-content">
+            <div class="part1">p1</div>
+            <div class="part2 center-center">
+                <div class="trai">Trai</div>
+                <div class="phai">Phai</div>
+            </div>
+            <div class="part3">p3</div>
+        </div>
+        <div class="right-content">right</div>
+
+    </div>
+    <div class="block4">BLOCK4</div>
+</body>
+</html>
