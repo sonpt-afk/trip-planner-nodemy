@@ -59,7 +59,15 @@
     height: 100px;
   }
   #header-text {
-    font-size: 10px;
+    font-size: 20px;
+    word-wrap: break-word;
+  }
+  #easy {
+    word-wrap: break-word;
+  }
+  .header-img {
+    width: 20px;
+    height: 10px;
   }
   .content {
     width: 100%;
@@ -68,9 +76,8 @@
     flex-wrap: wrap;
   }
   .main-content-caption {
-    font-size: 10px;
-    display: flex;
-    flex: wrap;
+    word-wrap: break-word;
+    font-size: 13px;
   }
   .left-content, .right-content {
     width: 100%;
@@ -87,7 +94,7 @@
     box-shadow: -16px 22px 42px 0 #dbdee7;
   }
   #hint {
-    font-size: 10px;
+    font-size: 13px;
   }
   .right-content-img {
     width: 100%;
@@ -97,12 +104,9 @@
     right: 0;
   }
   .main-content-header {
-    height: 40px;
-    width: 502px;
-  }
-  .main-content-header {
-    height: 40px;
-    width: 200px;
+    height: 50px;
+    width: 280px;
+    word-wrap: break-word;
   }
   .arrow-img {
     position: absolute;
